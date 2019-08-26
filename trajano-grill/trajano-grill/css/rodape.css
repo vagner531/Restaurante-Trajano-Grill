@@ -1,0 +1,51 @@
+.rodape-form {
+    height: 600px;
+    background: #000;
+}
+
+.rodape-form h2 {
+    margin-top: 4rem;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.rodape-form h5 {
+    color: white;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.rodape-form p {
+    color: rgb(139, 137, 137);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+label {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.rodape-form button {
+    padding: 0.5rem 3rem;
+}
+.rodape {
+    margin-top: 5rem;
+}
+.rodape p{
+    font-size: 13px;
+    color: white;
+}
+@media screen and (max-width: 767px) {
+    .rodape-form {
+        height: 100%;
+        background: #000;
+    }
+    .rodape-form button {
+        margin: 0 0 20px 0;
+    }
+   
+}
+@media screen and (max-width: 375px) {
+    .rodape-form {
+        height: 100%;
+        background: #000;
+    }
+    
+  
+}

@@ -1,0 +1,67 @@
+.section-about {
+    padding: 4rem;
+}
+
+.section-about > div {
+    margin: 10px;
+}
+
+.section-about-heading {
+    width: 100%;
+    padding: 40px;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+    border: 1px solid rgb(200, 200, 200);
+    position: absolute;
+    margin-top: 50px;
+    left: -100px;
+}
+
+@media screen and (max-width: 767px) {
+    .section-about {
+        width: 100%;
+        padding: 2rem;
+    
+
+    }
+    .section-about > div {
+        margin: 0px;
+    }
+
+    .section-about-heading {
+        position: relative;
+        left: 0;
+    }
+    
+}
+@media screen and (max-width: 578px) {
+    .section-about {
+        width: 100%;
+        padding: 2rem;
+    
+
+    }
+    .section-about > div {
+        margin: 0px;
+    }
+
+    .section-about-heading {
+        position: relative;
+        left: 0;
+    }
+    
+}
+@media screen and (max-width: 375px) {
+    .section-about {
+        padding: 2rem;
+        
+    }
+
+    .section-about-heading {
+        position: relative;
+        left: 0;
+    }
+}
+
+
+
+

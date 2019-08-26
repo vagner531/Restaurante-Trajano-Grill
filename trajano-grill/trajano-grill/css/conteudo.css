@@ -1,0 +1,46 @@
+.section-conteudo {
+    padding: 4rem;
+    background: #000;
+    height: 400px;
+}
+
+.section-conteudo  h2 {
+    color: white;
+    margin-top: 4rem;
+}
+
+.section-conteudo  p {
+    color: white;
+    
+}
+
+@media screen and (max-width: 767px) {
+    .section-conteudo  h2 {
+        color: white;
+
+    }
+    .section-conteudo  h2 {
+        color: white;
+        margin-top: -1rem;
+    }
+    .section-conteudo  p {
+        color: white;
+        
+    }
+}
+@media screen and (max-width: 375px) {
+    .section-conteudo {
+       height: 440px;
+    }
+    
+    .section-conteudo  h2 {
+        color: white;
+        margin-top: -3rem;
+    
+    }
+
+    .section-conteudo  p {
+        color: white;
+        
+    }
+}

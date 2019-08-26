@@ -1,0 +1,57 @@
+.navbar-brand a{
+    font-size: 50px;
+}
+.title-trajano:hover{
+    color: rgb(230, 201, 41);
+    text-decoration: none;
+}
+.bd-example {
+    margin-top: 2.5rem;;
+}
+.title-trajano {
+    font-size: 2.3rem;
+    color: rgb(248, 202, 50);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nav-link {
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+
+@media screen and (max-width: 767px) {
+    .title-trajano {
+        font-size: 1.3rem;
+        color: rgb(248, 202, 50);
+        font-family: 'Segoe UI', Tahoma, Geneva, sans-serif;
+    }
+   
+
+}
+@media screen and (max-width: 375px) {
+    .title-trajano {
+        font-size: 1.3rem;
+        color: rgb(248, 202, 50);
+        font-family: 'Segoe UI', Tahoma, Geneva, sans-serif;
+    }
+    .carousel-item h5 {
+        border-block-start: 2px solid white;
+        margin-top: -20rem;
+        font-size: 50px;
+    }
+    .carousel-item p {
+        border-block-end: 2px solid white;
+       
+    }
+   
+
+}
+.carousel-item h5 {
+    border-block-start: 2px solid white;
+    margin-top: -20rem;
+    font-size: 50px;
+}
+.carousel-item p {
+    border-block-end: 2px solid white;
+   
+}

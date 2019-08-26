@@ -1,0 +1,45 @@
+.section-cardapio {
+    padding: 4rem;
+}
+
+.section-cardapio > div {
+    margin: 5px;
+}
+
+.section-cardapio-heading {
+    width: 100%;
+    padding: 40px;
+    background: rgb(17, 16, 16) none repeat scroll 0% 0%;
+    border: 1px solid rgb(19, 18, 18);
+    position: absolute;
+    color: white;
+    margin-top: 50px;
+    left: 90px;
+    z-index: 2;
+    
+}
+
+@media screen and (max-width: 767px) {
+    .section-cardapio {
+        padding: 2rem;
+        margin-top: -2rem;
+        
+    }
+    .section-cardapio > div {
+        margin: 0px;
+    }
+    
+
+    .section-cardapio-heading {
+        position: relative;
+        left: 0;
+
+    }
+    img {
+        margin-top: 3rem;
+    }
+}
+
+
+
+
